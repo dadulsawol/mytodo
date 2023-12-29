@@ -92,10 +92,10 @@ function App() {
                   ) : (
                     <>
                       <button className="updateContainer" onClick={() => updateTask(index)}>
-                        <img className="updateBtn" src={require("./update.png")} height={20} width={20} />
+                        <img className="updateBtn" src={require("./update.png")} height={20} width={20} alt="icon"/>
                       </button>
                       <button className="deleteContainer" onClick={() => deleteTask(index)}>
-                        <img className="deleteBtn" src={require("./delete.png")} height={20} width={20} />
+                        <img className="deleteBtn" src={require("./delete.png")} height={20} width={20} alt="icon"/>
                       </button>
                     </>
                   )}
